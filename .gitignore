@@ -1,0 +1,23 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated apps, build metadata, and logs
+build/
+dist/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
